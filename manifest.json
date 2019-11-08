@@ -7,7 +7,7 @@
     {
       "matches": [
         "*://github.com/*",
-        "*://*/*"
+        "*://facebook.com/*"
       ],
       "js": ["scripts/app.js"]
     }
