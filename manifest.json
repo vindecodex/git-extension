@@ -1,0 +1,14 @@
+{
+  "name": "Merge RGB",
+  "version": "1.0",
+  "description": "RGB Color to all Merge tags",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "*://github.com/*"
+      ],
+      "js": ["scripts/app.js"]
+    }
+  ]
+ }
